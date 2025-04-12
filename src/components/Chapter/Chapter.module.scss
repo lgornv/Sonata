@@ -1,0 +1,81 @@
+.advantages{
+    margin-top: 100px;
+}
+
+.titleBlock{
+    width: 100%;
+    height: 244px;
+    position: relative;
+}
+
+.wave{
+    width: 121px;
+    height: 244px;
+    position: absolute;
+}
+
+.title{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.hr{
+    position: absolute;
+    top: 122px;
+    width: 100%;
+    height: 2px;
+    background-color: #7ADAEE;
+    border: none;
+}
+
+.chapter{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.fonChapter{
+    position: relative;
+    margin: 0;
+}
+
+.content{
+    position: absolute;
+    right: 10%;
+    max-width: 500px;
+    display: grid;
+    row-gap: 60px;
+    text-align: center;
+    .text{
+        width: 100%;
+        max-width: 500px;
+        height: 116px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: solid 2px;
+        border-radius: 50px 5px 5px 50px;
+        border-color: #7ADAEE;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (max-width: 370px) {
+    .title{
+        position: absolute;
+        top: 80px;
+        left: 60px;
+    }
+    .content{
+        position: absolute;
+        right: 1%;
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+        text-align: center;
+    }
+}

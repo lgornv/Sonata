@@ -1,0 +1,100 @@
+.footer {
+    color: #fff;
+    margin: 100px 100px 20px;
+  }
+  
+.up,
+.down{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.down{
+    padding-right: 117px;
+}
+  
+  .footerLogo {
+    width: 378px;
+    height: 98px;
+    margin: 0;
+  }
+
+.contactInfo{
+    margin-left: 0;
+    font-family: 'KosugiMaru';
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    > * {
+        margin: 0;
+    }
+}
+  
+  .ctaButton {
+    margin: 0;
+    background-color: #000;
+    border: 2px solid #7ADAEE;
+    border-top: none;
+    padding: 27px 76px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px #7ADAEE;
+  }
+  
+  .copyright {
+    font-family: 'KosugiMaru';
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+.img{
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.hr{
+    background-color: #fff;
+    border: none;
+    height: 2px;
+    box-shadow: 0 5px 15px #7ADAEE;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    margin: 100px 0 20px;
+  }
+
+  .ctaButton {
+    padding: 30px 2px;
+  }
+
+  .down{
+    padding-right: 60px;
+}
+}
+@media (max-width: 768px) {
+
+  .ctaButton {
+    padding: 10px 5px;
+  }
+
+  .down{
+    padding-right: 30px;
+  }
+
+  .footerLogo {
+    width: 120px;
+    height: 31px;
+    margin: 0;
+  }
+  .contactInfo{
+    font-size: 10px;
+  }
+  .copyright {
+    font-size: 16px;
+  }
+}
